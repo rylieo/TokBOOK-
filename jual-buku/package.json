@@ -1,0 +1,16 @@
+{
+  "name": "responsi_uas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./tailwind.css -o ./src/style.css --watch",
+    "build": "npx tailwindcss -i ./tailwind.css -o ./src/style.css --minify"
+  },
+  "keywords": ["UAS", "Responsi", "PPW1"],
+  "author": "Aliif Arief Maulana",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.3"
+  }
+}
